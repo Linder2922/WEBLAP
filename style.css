@@ -65,6 +65,11 @@ div.content {
     float: none;
   }
 }
-
+footer{
+  width: 89.5%;
+  height: 100%;
+  float: right;
+  background-color: #04AA6D;
+}
 
 
