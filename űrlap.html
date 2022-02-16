@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 >Pizza Rendelés</h1>
+    <fieldset>
+        <legend>vevő adatai</legend>
+        
+        <p><label>Név: <input type="text" name="nev">
+            <small></small></label></p>
+    <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
+    </fieldset>
+    <fieldset>
+        <legend>Pizza mérete</legend>
+        <p><label><input type="radio" name="meret" value="kicsi">30 cm</label></p>
+        <p><label><input type="radio" name="meret" value="közepes">45 cm</label></p>
+        <p><label><input type="radio" name="meret" value="nagy">60 cm</label></p>
+    </fieldset>
+    <fieldset>
+        <legend>alap</legend>
+        <select>
+            <option>egyéb</option>
+            <option>tejfölös     </option>
+            <option>paradicsomos        </option>
+        </select>
+                
+    </fieldset>
+    <fieldset>
+        <legend>feltételek</legend>
+       
+    
+        <p><label><input type="checkbox" name="feltet1" value="sonka">sonka</label></p>
+        <p><label><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
+        <p><label><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
+        <p><label><input type="checkbox" name="feltet1" value="sonka">paradicsom</label></p>
+        <p><label><input type="checkbox" name="feltet2" value="sajt">csirkehús</label></p>
+        <p><label><input type="checkbox" name="feltet3" value="gomba">szalámi</label></p>
+        <p><label><input type="checkbox" name="feltet1" value="sonka">gomba</label></p>
+        <p><label><input type="checkbox" name="feltet2" value="sajt">kukorica</label></p>
+        <p><label><input type="checkbox" name="feltet3" value="gomba">juhtúró</label></p>
+    </fieldset>
+    
+</body>
+</html>
